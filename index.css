@@ -787,13 +787,13 @@
 }
 
 .heading-with-icons h1 {
-  font-size: 2.5rem;
+  font-size: 2.2rem;
   font-weight: bold;
   color: #1b5e20;
   margin: 0;
   text-transform: uppercase;
 
-  line-height: 1.2;
+  line-height: 1.1;
   text-shadow: 0 3px 10px rgba(67, 160, 71, 0.3);
   background: -webkit-linear-gradient(#43a047, #81c784);
   -webkit-background-clip: text;
@@ -802,7 +802,7 @@
 }
 
 .heading-with-icons .icon {
-  font-size: 2.3rem;
+  font-size: 2.1rem;
   color: #66bb6a;
   animation: bounce 2s infinite alternate;
   transition: transform 0.3s ease, color 0.3s ease;
@@ -815,7 +815,7 @@
 
 /* Quotes Styling */
 .quote-en {
-  font-size: 1.2rem;
+  font-size: 1rem;
   font-style: italic;
   color: #424242;
   margin: 20px 0;
@@ -823,7 +823,7 @@
 }
 
 .quote-ur {
-  font-size: 1.2rem;
+  font-size: 1rem;
   font-style: italic;
   color: #616161;
   direction: rtl;
@@ -875,15 +875,15 @@
   }
 
   .heading-with-icons h1 {
-    font-size: 2.4rem;
+    font-size: 2.3rem;
   }
 
   .heading-with-icons .icon {
-    font-size: 2.5rem;
+    font-size: 2.3rem;
   }
 
   .quote-en, .quote-ur {
-    font-size: 1.7rem;
+    font-size: 1.4rem;
   }
 }
 
@@ -894,15 +894,15 @@
   }
 
   .heading-with-icons h1 {
-    font-size: 2.3rem;
+    font-size: 2.2rem;
   }
 
   .heading-with-icons .icon {
-    font-size: 2.5rem;
+    font-size: 2.2rem;
   }
 
   .quote-en, .quote-ur {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
   }
 
   .premium-heading-section::before {
@@ -923,7 +923,7 @@
   }
 
   .heading-with-icons h1 {
-    font-size: 1.5rem;
+    font-size: 1.7rem;
   }
 
   .heading-with-icons .icon {
@@ -931,7 +931,7 @@
   }
 
   .quote-en, .quote-ur {
-    font-size: 1rem;
+    font-size: 0.9rem;
   }
 
   .premium-heading-section::before {
@@ -956,15 +956,15 @@
   }
 
   .heading-with-icons h1 {
-    font-size: 1.6rem;
+    font-size: 1rem;
   }
 
   .heading-with-icons .icon {
-    font-size: 1.5rem;
+    font-size: 1rem;
   }
 
   .quote-en, .quote-ur {
-    font-size: 1.3rem;
+    font-size: 0.8rem;
   }
 
   .premium-heading-section::before {
@@ -1141,18 +1141,21 @@ a:focus {
 /* Text Styling */
 .cta-container {
   background-color: #f4f4f4;
-  padding: 10px;
+  padding:  3px 10px;
   text-align: center;
   border-radius: 10px;
 
   margin-bottom: 20px;
 }
+.cta-texts {
+color: rgb(32, 25, 25);  text-align: center;
+margin: 0% 80px;}
 
 .cta-text {
   font-size: 1.2rem;
   color: #388e3c;
   font-weight: bold;
-  line-height: 1.6;
+  line-height: 1;
   text-align: center;
 }
 
